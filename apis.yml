@@ -8,8 +8,8 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Node.js
   - JavaScript
+  - Node.js
   - Runtime
   - Server-Side
 url: https://raw.githubusercontent.com/api-evangelist/node-js/refs/heads/main/apis.yml
