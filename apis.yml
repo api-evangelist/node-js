@@ -23,7 +23,7 @@ common:
     url: https://nodejs.org/
   - type: Documentation
     url: https://nodejs.org/en/docs/
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/nodejs
   - type: Repository
     url: https://github.com/nodejs/node
