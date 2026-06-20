@@ -7,7 +7,7 @@ description: >-
   and real-time services. Node.js itself is a runtime and standard library, not
   an API service, so no OpenAPI specification is published.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - JavaScript
   - Node.js
