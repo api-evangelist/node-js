@@ -19,6 +19,10 @@ modified: '2026-04-28'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: VulnerabilityDisclosure
+    url: security/node-js-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/node-js-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/openjs-foundation
   - type: Website
@@ -29,6 +33,8 @@ common:
     url: https://github.com/nodejs
   - type: Repository
     url: https://github.com/nodejs/node
+  - url: https://nodejs.org/en/feed/blog.xml
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
