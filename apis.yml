@@ -30,6 +30,16 @@ modified: '2026-04-28'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: IssueTracker
+    url: https://github.com/nodejs/node/issues
+  - type: Releases
+    url: https://github.com/nodejs/node/releases
+  - type: SecurityPolicy
+    url: https://github.com/nodejs/node/blob/main/SECURITY.md
+  - type: CodeOfConduct
+    url: https://github.com/nodejs/node/blob/main/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/nodejs/node/blob/main/CONTRIBUTING.md
   - type: VulnerabilityDisclosure
     url: security/node-js-vulnerability-disclosure.yml
   - type: DomainSecurity
