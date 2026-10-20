@@ -1,0 +1,49 @@
+edges:
+- partner_name: winget (Windows Package Manager)
+  partner: null
+  partner_match: null
+  type: register
+  direction: provider-built
+  category: official CLI (winget (Windows Package Manager))
+  evidence: https://github.com/microsoft/winget-pkgs/tree/master/manifests/o/OpenJS/NodeJS/20
+  channel: package-registry
+  relationship: distribution-channel
+  contract_reference:
+    register: winget (Windows Package Manager) (public package index)
+    spec_file: null
+    packages:
+    - name: OpenJS.NodeJS.20
+      kind: manifest
+      version: 20.9.0
+      released: '2023-10-24'
+      lapsed: true
+      page: https://github.com/microsoft/winget-pkgs/tree/master/manifests/o/OpenJS/NodeJS/20
+      cli: 'winget: Node.js® is a free, open-source, cross-platform JavaScript runtime environment t'
+      repo_leg: domain:nodejs.org
+      publisher_leg: artifact-domain:nodejs.org
+      matched_by: domain
+    current: false
+    signal_note: 'the provider''s own command-line tool on a package manager: distribution, not an integration;
+      lapsed = no release in 24 months or deprecated / disabled by the manager'
+    detected_by: sweep-official-clis.py
+    detected: '2026-10-20'
+  detected_by: sweep-official-clis.py
+  first_seen: '2026-10-20'
+generated: '2026-10-20'
+method: searched
+source:
+- https://cdn.winget.microsoft.com/cache
+- https://formulae.brew.sh/api/cask.json
+- https://formulae.brew.sh/api/formula.json
+- https://github.com/ScoopInstaller/Extras
+- https://github.com/ScoopInstaller/Main
+- https://pypi.org/pypi
+- https://registry.npmjs.org
+checked:
+- https://cdn.winget.microsoft.com/cache
+- https://formulae.brew.sh/api/cask.json
+- https://formulae.brew.sh/api/formula.json
+- https://github.com/ScoopInstaller/Extras
+- https://github.com/ScoopInstaller/Main
+- https://pypi.org/pypi
+- https://registry.npmjs.org
